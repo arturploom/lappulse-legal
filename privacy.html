@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LapPulse — Privacy Policy</title>
+  <style>
+    :root { --bg: #0D0D0F; --surface: #1A1A2E; --border: #2A2A4C; --text: #E0E0FF; --dim: #6E6E90; --accent: #2BFAAB; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; padding: 40px 20px; }
+    .container { max-width: 720px; margin: 0 auto; }
+    h1 { color: var(--accent); font-size: 28px; margin-bottom: 8px; }
+    .date { color: var(--dim); font-size: 14px; margin-bottom: 32px; }
+    h2 { color: var(--text); font-size: 20px; margin-top: 32px; margin-bottom: 12px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    p, li { color: var(--text); font-size: 15px; margin-bottom: 12px; }
+    ul { padding-left: 24px; margin-bottom: 16px; }
+    li { margin-bottom: 6px; }
+    strong { color: var(--accent); font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--dim); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective date: March 10, 2026</p>
+
+    <p>LapPulse ("we", "our", or "the app") is a motorsport lap timing application for iOS. Your privacy is important to us. This policy explains what data LapPulse collects, how it is used, and your rights.</p>
+
+    <h2>1. Data We Collect</h2>
+
+    <p><strong>Location Data (GPS)</strong></p>
+    <p>LapPulse accesses your device's location <em>only while the app is in use</em> (When In Use permission). GPS coordinates are used to:</p>
+    <ul>
+      <li>Calculate lap times, speed, and sector splits</li>
+      <li>Detect start/finish line crossings</li>
+      <li>Render track maps and racing lines</li>
+      <li>Auto-detect nearby tracks</li>
+    </ul>
+    <p>Location data is processed locally on your device. GPS coordinates are stored in session files on your device only — they are <strong>never uploaded to our servers</strong>.</p>
+
+    <p><strong>Bluetooth Data</strong></p>
+    <p>LapPulse connects to external GPS receivers (e.g., RaceBox Mini) via Bluetooth Low Energy (BLE). BLE is used solely to receive high-frequency GPS telemetry data. We do not scan for or interact with any other Bluetooth devices.</p>
+
+    <p><strong>Session Data</strong></p>
+    <p>Lap times, telemetry samples, track layouts, and session metadata are stored locally on your device using on-device storage. This data is <strong>never transmitted to external servers</strong> unless you explicitly choose to share or export a session file.</p>
+
+    <p><strong>Crash Reports</strong></p>
+    <p>LapPulse uses Sentry, a third-party error monitoring service, to collect crash reports. When the app crashes, the following information may be sent to Sentry:</p>
+    <ul>
+      <li>Device model and operating system version</li>
+      <li>App version and build number</li>
+      <li>Stack traces and error messages</li>
+      <li>General device state (memory usage, battery level)</li>
+    </ul>
+    <p>Crash reports <strong>do not</strong> include GPS coordinates, session data, personal information, or any telemetry recorded during your sessions. Crash data is used solely to identify and fix bugs.</p>
+
+    <h2>2. Data We Do NOT Collect</h2>
+    <ul>
+      <li>We do not collect your name, email address, or any personal identifiers</li>
+      <li>We do not use analytics or tracking SDKs (no Google Analytics, no Facebook SDK, no ad networks)</li>
+      <li>We do not collect or store your location data on any server</li>
+      <li>We do not sell, rent, or share any data with third parties</li>
+      <li>We do not require account creation</li>
+    </ul>
+
+    <h2>3. Data Storage &amp; Sharing</h2>
+    <p>All session and track data is stored locally on your device. You may choose to:</p>
+    <ul>
+      <li><strong>Export sessions</strong> as <code>.lappulse</code> or <code>.csv</code> files via the iOS share sheet</li>
+      <li><strong>Share sessions</strong> with other LapPulse users via AirDrop, Messages, or other apps</li>
+    </ul>
+    <p>These actions are entirely user-initiated. We have no access to shared files.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <ul>
+      <li><strong>Sentry</strong> (crash reporting) — <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">Sentry Privacy Policy</a></li>
+      <li><strong>Open-Meteo</strong> (weather data) — Free weather API used to tag sessions with weather conditions. Only your approximate location (latitude/longitude) is sent to fetch current weather. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo Terms</a></li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>LapPulse is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
+
+    <h2>6. Your Rights</h2>
+    <p>Since all data is stored locally on your device, you have full control:</p>
+    <ul>
+      <li><strong>Delete sessions</strong> at any time within the app</li>
+      <li><strong>Revoke permissions</strong> (Location, Bluetooth) via iOS Settings</li>
+      <li><strong>Uninstall the app</strong> to remove all stored data</li>
+    </ul>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. Continued use of the app after changes constitutes acceptance.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have questions about this Privacy Policy, contact us at:<br>
+    <a href="mailto:privacy@lappulse.com">privacy@lappulse.com</a></p>
+
+    <div class="footer">
+      &copy; 2026 LapPulse. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
