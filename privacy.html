@@ -47,7 +47,7 @@
     <p>Lap times, telemetry samples, track layouts, and session metadata are stored locally on your device using on-device storage. This data is <strong>never transmitted to external servers</strong> unless you explicitly choose to share or export a session file.</p>
 
     <p><strong>Crash Reports</strong></p>
-    <p>LapPulse uses Sentry, a third-party error monitoring service, to collect crash reports. When the app crashes, the following information may be sent to Sentry:</p>
+    <p>LapPulse uses Firebase Crashlytics (by Google), a third-party error monitoring service, to collect crash reports. When the app crashes, the following information may be sent to Firebase:</p>
     <ul>
       <li>Device model and operating system version</li>
       <li>App version and build number</li>
@@ -75,7 +75,7 @@
 
     <h2>4. Third-Party Services</h2>
     <ul>
-      <li><strong>Sentry</strong> (crash reporting) — <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">Sentry Privacy Policy</a></li>
+      <li><strong>Firebase Crashlytics</strong> (crash reporting) — <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></li>
       <li><strong>Open-Meteo</strong> (weather data) — Free weather API used to tag sessions with weather conditions. Only your approximate location (latitude/longitude) is sent to fetch current weather. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo Terms</a></li>
     </ul>
 
