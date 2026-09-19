@@ -147,7 +147,7 @@
     <div class="container">
         <a href="index.html" class="back">&larr; Back to LapPulse Legal</a>
         <h1>Privacy Policy</h1>
-        <p class="date">Effective date: April 5, 2026</p>
+        <p class="date">Effective date: September 19, 2026</p>
 
         <p>LapPulse ("we", "us", or "the app") is a motorsport lap timing application for iOS and Android, developed by Artur Ploom. This policy explains what data LapPulse collects, how it is used, who it is shared with, and your rights regarding that data.</p>
 
@@ -213,6 +213,16 @@
             <li>General device state (memory usage, battery level)</li>
         </ul>
         <p>Crash reports <strong>do not</strong> include GPS coordinates, session data, personal information, or telemetry recorded during your sessions.</p>
+
+        <h3>1.8 Analytics Data</h3>
+        <p>LapPulse uses Firebase Analytics to understand how the app is used in aggregate &mdash; for example, how many drivers record a session, and whether they come back. The events we record carry counts and categories only:</p>
+        <ul>
+            <li>Number of laps, session duration, and best lap time for a completed session</li>
+            <li>Which GPS source was used (external receiver, phone GPS, or demo mode)</li>
+            <li>Whether a track was created, and whether it came from the Workshop</li>
+            <li>Sign-in method (Apple or Google), and video overlay usage</li>
+        </ul>
+        <p>Analytics events <strong>do not</strong> include your name, email address, GPS coordinates, or the telemetry recorded during your sessions. We have disabled advertising identifier collection, Android ID collection, and ad personalisation. Analytics is switched off entirely in development builds.</p>
 
         <!-- ===== 2. HOW WE USE YOUR DATA ===== -->
         <h2>2. How We Use Your Data</h2>
@@ -296,6 +306,12 @@
                     <td>Supabase Inc. (hosted on AWS)</td>
                     <td>Account info, profile, tracks, leaderboards, social data</td>
                     <td>Cloud database, authentication, storage</td>
+                </tr>
+                <tr>
+                    <td>Firebase Analytics</td>
+                    <td>Google LLC</td>
+                    <td>Aggregate usage events, app instance identifier</td>
+                    <td>Product analytics</td>
                 </tr>
                 <tr>
                     <td>Firebase Crashlytics</td>
